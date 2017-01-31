@@ -1,4 +1,12 @@
 /******************************* td2_2.canevas *******************************/
+/*
+	Installer la bibilothèque Fair Threads => http://www-sop.inria.fr/mimosa/rp/FairThreads/FTC/
+	
+	Compiler avec la commande "gcc exo4.c -o exo4 -I {{path}}/include -L {{path}}/lib/ -lfthread -lpthread"
+path : répértoire ou vous avez mis la bibliothèque des fair threads installée
+
+
+*/
 
 #include "fthread.h"
 #include "stdio.h"
